@@ -1,0 +1,48 @@
+body {
+    background-image: url('Argen.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    height: 90vh;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+input[type="text"] {
+    width: 40%;
+    padding: 10px;
+    margin: 20px auto;
+    display: block;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#weatherInfo {
+    margin: 20px auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    border: 1px solid black;
+}
